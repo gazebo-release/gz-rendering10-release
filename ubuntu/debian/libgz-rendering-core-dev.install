@@ -2,8 +2,8 @@ usr/include/*/rendering[0-99]/*/rendering/*.hh
 usr/include/*/rendering[0-99]/*/rendering/base/*.hh
 usr/include/*/rendering[0-99]/*/rendering.hh
 usr/include/*/rendering[0-99]/gz/rendering/detail/*.hh
-usr/lib/*/lib*-rendering[0-99].so
-usr/lib/*/pkgconfig/*-rendering[0-99].pc
-usr/lib/*/cmake/*-rendering[0-99]/*-rendering*
-usr/share/gz/*-rendering[0-99]/*-rendering*.tag.xml
-usr/share/gz/*-rendering[0-99]/media/*
+usr/lib/*/lib*-rendering.so
+usr/lib/*/pkgconfig/*-rendering.pc
+usr/lib/*/cmake/*-rendering/*-rendering*
+usr/share/gz/*-rendering/*-rendering*.tag.xml
+usr/share/gz/*-rendering/media/*
