@@ -1,7 +1,7 @@
-usr/include/*/rendering[0-99]/*/rendering/*.hh
-usr/include/*/rendering[0-99]/*/rendering/base/*.hh
-usr/include/*/rendering[0-99]/*/rendering.hh
-usr/include/*/rendering[0-99]/gz/rendering/detail/*.hh
+usr/include/*/rendering*/*/rendering/*.hh
+usr/include/*/rendering*/*/rendering/base/*.hh
+usr/include/*/rendering*/*/rendering.hh
+usr/include/*/rendering*/gz/rendering/detail/*.hh
 usr/lib/*/lib*-rendering.so
 usr/lib/*/pkgconfig/*-rendering.pc
 usr/lib/*/cmake/*-rendering/*-rendering*
