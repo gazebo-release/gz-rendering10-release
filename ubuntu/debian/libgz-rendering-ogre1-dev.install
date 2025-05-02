@@ -3,5 +3,5 @@ usr/include/*/rendering*/*/rendering/ogre.hh
 usr/lib/*/lib*-rendering-ogre.so
 usr/lib/*/pkgconfig/*-rendering-ogre.pc
 usr/lib/*/cmake/*-rendering-ogre/*
-usr/lib/*/*-rendering-[0-99]/engine-plugins/lib*-rendering*-ogre.so
+usr/lib/*/*-rendering-[0-99]*/engine-plugins/lib*-rendering*-ogre.so
 usr/share/gz/*-rendering/ogre/*
