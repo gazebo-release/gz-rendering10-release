@@ -25,8 +25,8 @@ override_dh_auto_build:
 	dh_auto_build
 
 override_dh_install:
-	install -d debian/tmp/usr/share/gz/gz-rendering10/
-	install ./obj-*/*.tag.xml debian/tmp/usr/share/gz/gz-rendering10/
+	install -d debian/tmp/usr/share/gz/gz-rendering/
+	install ./obj-*/*.tag.xml debian/tmp/usr/share/gz/gz-rendering/
 	dh_install --
 	# need to remove files present in components
 	$(RM) debian/libgz-rendering*-core-dev/usr/include/gz/rendering*/gz/rendering/ogre.hh
