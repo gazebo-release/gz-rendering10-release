@@ -160,3 +160,35 @@ Description: Gazebo Rendering classes and functions for robot apps - Metapackage
  designed to rapidly develop robot applications.
  .
  Metapackage for development files
+
+Package: gz-jetty-rendering
+Depends: libgz-rendering10-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: gz-jetty-rendering-core
+Depends: libgz-rendering10-core-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: gz-jetty-rendering-ogre1
+Depends: libgz-rendering10-ogre1-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: gz-jetty-rendering-ogre2
+Depends: libgz-rendering10-ogre2-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
