@@ -1,3 +1,15 @@
+gz-rendering10 (10.0.0-2pre3~noble) noble; urgency=medium
+
+  * gz-rendering10 10.0.0-2pre3 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 08 Dec 2025 16:41:23 +0100
+
+gz-rendering10 (10.0.0-2pre1~noble) noble; urgency=medium
+
+  * gz-rendering10 10.0.0-2pre1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 03 Dec 2025 19:30:52 +0100
+
 gz-rendering10 (10.0.0-1~noble) noble; urgency=medium
 
   * gz-rendering10 10.0.0-1 release

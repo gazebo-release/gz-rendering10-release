@@ -4,7 +4,7 @@ Section: science
 Priority: optional
 Build-Depends: cmake,
                doxygen,
-               pkg-config,
+               pkgconf,
                debhelper (>= 11),
                freeglut3-dev,
                libglew-dev,
@@ -93,6 +93,8 @@ Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
+Breaks: libgz-rendering10-ogre1-dev (<< 10.0.0-2)
+Replaces: libgz-rendering10-ogre1-dev (<< 10.0.0-2)
 Description: Gazebo Rendering classes and functions for robot apps - Ogre1 lib
  Gazebo Rendering is a C++ library designed to provide an abstraction for
  different rendering engines. It offers unified APIs for creating 3D graphics
@@ -132,6 +134,8 @@ Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
+Breaks: libgz-rendering10-ogre2-dev (<< 10.0.0-2)
+Replaces: libgz-rendering10-ogre2-dev (<< 10.0.0-2)
 Description: Gazebo Rendering classes and functions for robot apps - Development files
  Gazebo Rendering is a C++ library designed to provide an abstraction for
  different rendering engines. It offers unified APIs for creating 3D graphics
